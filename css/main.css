@@ -55,7 +55,7 @@ header{
 	height: 10%;
 }
 
-.bootstrap{
+#bootstrap{
 	width: 100%;
 	height: 150%;
 	text-align: center;
@@ -73,7 +73,7 @@ header{
 	font-size: 200%;
 }
 
-.bootstrap .container p{
+#bootstrap .container p{
 	font-size: 150%;
 }
 
