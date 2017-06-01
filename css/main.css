@@ -55,6 +55,9 @@ header{
 	height: 10%;
 }
 
+
+/* section bootstrap */
+
 #bootstrap{
 	width: 100%;
 	height: 150%;
@@ -69,12 +72,77 @@ header{
 	font-size: 400%;
 }
 
-.fa-star{
-	font-size: 200%;
-}
-
 #bootstrap .container p{
 	font-size: 150%;
 }
+
+/*section portfolio*/
+
+.fa-star{
+	font-size: 30px;
+}
+
+.size{
+	font-size: 230%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#portfolio{
+	color: black;
+	text-align: center;
+}
+
+.azul{
+	color: rgb(49, 69, 90);
+}
+
+/*seccion about*/
+
+#about-section{
+	background: #56d3a9;
+	width: 100%;
+	height: 80%;
+	text-align: center;
+}
+
+#about{
+	color: white;
+	text-align: center;
+}
+
+.blanco{
+	color: white;
+	text-align: center;
+}
+
+.container.about{
+	width: 60%;
+	padding: 7% 0;
+}
+
+.row.about{
+	text-align: left;
+	color: white;
+}
+
+.botoncito{
+	text-align: center;
+}
+
+#botoncito{
+	width: 25%;
+	padding: 1.5% 0;
+	color: white;
+	background: #56d3a9;
+	font-size: 110%;
+	border-radius: 7px;
+	border: 2px solid white;
+
+}
+
+
+
+
 
 
