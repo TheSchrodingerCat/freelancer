@@ -6,7 +6,7 @@
  	var boxes = Array.from(document.getElementsByClassName("cajita"));
  	var modal = document.getElementById("box-portfolio-modal");
 
- 	var bodyModal, close, img;
+ 	var bodyModal, close, img, title, textTitle;
  		boxes.forEach(function(box){
  			box.addEventListener("click", function(){
 
@@ -21,6 +21,15 @@
 
  				bodyModal = document.createElement("div");
  				bodyModal.classList.add("modal-body");
+
+ 				//título
+ 				/*title = document.createElement("h1");
+ 				title.classList.add("modal-title");
+ 				textTitle = document.createTextNode("Proyect Title");
+
+ 				title.appendChild(textTitle);
+ 				bodyModal.appendChild(title);*/
+
  				bodyModal.innerHTML = box.innerHTML;
  				modal.appendChild(bodyModal);
  				modal.classList.remove("hide");
