@@ -24,6 +24,10 @@
 	margin: 0 auto;
 }
 
+.encabezado{
+	text-align: center;
+}
+
 [class*="col-"]{
 	background-position: center;
 	min-height: 7px;
